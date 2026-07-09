@@ -46,31 +46,45 @@
         <h1>Privacy Policy</h1>
     </div>
     <div class="container">
-        <p><strong>Last Updated: May 19, 2026</strong></p>
+        <p><strong>Last Updated: July 08, 2026</strong></p>
         <p>Welcome to Muriq-AI. Your financial privacy is our highest priority. This document outlines how we handle your information and secure your data.</p>
 
         <h2>1. Data Collection & Cloud Sync</h2>
-        <p>Muriq-AI collects only the data necessary to provide professional financial insights. This includes transactions, account names, and categories you manually input. We do not access your bank accounts directly. To provide seamless cross-device synchronization, your data is securely stored in your personal cloud account using Google Firebase infrastructure.</p>
+        <p>Muriq-AI collects only the data necessary to provide professional financial insights. This includes transactions, account names, and categories you manually input. We do not access your bank accounts directly. To provide seamless cross-device synchronization, your data is securely stored in your personal cloud account.</p>
 
-        <h2>2. Profile Photo</h2>
-        <p>If you choose to set a profile photo, that image is securely uploaded and stored in your personal cloud storage via Google Firebase. Your profile photo is only used to personalize your in-app experience and is never shared with third parties, used for advertising, or processed by any AI system. You can update or delete your profile photo at any time through the app settings.</p>
+        <h2>2. Third-Party Services</h2>
+        <p>To provide core functionality, Muriq-AI utilizes the following third-party services:</p>
+        <ul>
+            <li><strong>Google Firebase:</strong> Used for secure authentication, real-time database syncing, and cloud storage (profile photos). Your data is strictly linked to your account and protected by Google Cloud infrastructure.</li>
+            <li><strong>Google Gemini API:</strong> Used exclusively for processing AI receipt scanning and categorization. Data sent for processing is governed by Google's Privacy Policy and is not retained for training public AI models.</li>
+        </ul>
 
-        <h2>3. Camera, Gallery & Image Processing</h2>
-        <p>We request Camera and Gallery (Storage) access for two purposes: (1) to allow you to set or update your profile photo, and (2) for the AI Receipt Scanning feature. Receipt images are temporarily processed via the Google Gemini API to extract financial data and are NOT stored permanently on any of our servers — they are deleted immediately after processing. We do not use your camera or gallery for any other purpose.</p>
+        <h2>3. Biometric Security & Device Data</h2>
+        <p>Our app utilizes device-level Fingerprint and Face Unlock mechanisms to secure your data and prevent unauthorized account deletions.</p>
+        <p><strong>Important:</strong> All biometric data processing occurs 100% locally on your device. We NEVER access, collect, or upload your biometric data (fingerprints or face scans) to our servers or Firebase.</p>
 
-        <h2>4. Microphone & Voice Data</h2>
-        <p>We request Microphone access solely for the AI Voice Input feature, which allows you to add transactions and interact with the app hands-free. Voice data is processed in real-time to generate text and is never stored permanently on any server or shared with third-party advertisers.</p>
+        <h2>4. Camera, Gallery & Microphone</h2>
+        <p>We request Camera, Gallery (Storage), and Microphone access for distinct features:</p>
+        <ol>
+            <li><strong>Profile Photos:</strong> If you upload a custom profile picture, that image is securely stored in your personal cloud storage to sync across devices.</li>
+            <li><strong>AI Receipt Scanning & Voice Input:</strong> Images of receipts and voice inputs are temporarily processed via the Google Gemini API to extract financial data. These media files are NOT stored permanently on any server and are discarded immediately after processing.</li>
+        </ol>
 
-        <h2>5. AI Processing (Google Gemini API)</h2>
-        <p>Muriq-AI uses the Google Gemini API to power smart features such as parsing data from receipt images and categorizing transactions. By using these AI features, you acknowledge that the specific text or image data provided for that action may be transmitted to Google's servers for real-time processing. This data handling is subject to Google's Privacy Policy.</p>
+        <h2>5. Data Security & Sharing</h2>
+        <p>We use industry-standard encryption for all data synchronization and storage. Your information is strictly private. We do not share, sell, or rent your personal or financial data to third-party advertisers, data brokers, or marketing agencies under any circumstances.</p>
 
-        <h2>6. Data Security</h2>
-        <p>We use industry-standard encryption for all data synchronization and storage. Your information is strictly private and is never sold, rented, or shared with third-party advertisers.</p>
+        <h2>6. Account & Data Deletion</h2>
+        <p>You have the absolute right to delete your account and all associated data at any time. To protect you from accidental or unauthorized deletion, we have a multi-step verification process (including Biometric validation and Account Re-authentication).</p>
+        <p><strong>What gets deleted:</strong> All transactions, accounts, categories, cloud backup data, uploaded profile photos, and your authentication record are permanently and irreversibly removed.</p>
+        <p>To initiate account deletion: Go to Settings &rarr; Scroll down &rarr; "Delete Account & All Data".</p>
 
-        <h2>7. User Rights & Data Deletion</h2>
-        <p>You have the absolute right to control your data. You can export, modify, or completely delete your entire financial history, profile photo, and account at any time directly through the app settings. Deletion requests are immediately and irreversibly processed.</p>
+        <h2>7. Data Retention</h2>
+        <p>Your data remains securely stored in the cloud as long as your account is active, ensuring you can restore it upon your next login. Data is only permanently deleted when you explicitly complete the Account Deletion process.</p>
 
-        <h2>8. Contact Support</h2>
+        <h2>8. Children's Privacy (COPPA)</h2>
+        <p>Muriq-AI is a professional financial tool and is not intended for use by children under the age of 13 (or the applicable legal age in your jurisdiction). We do not knowingly collect personal information from children.</p>
+
+        <h2>9. Contact Support</h2>
         <p>For any privacy-related inquiries, please reach out to us at: <strong>muriqapp@gmail.com</strong></p>
     </div>
     <div class="footer">
